@@ -1,1 +1,243 @@
-# studious-chainsaw.github.io
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neuronia — IT школа в Озёрах и Кашире</title>
+  <meta name="description" content="IT школа Neuronia в Озёрах и Кашире. Курсы по программированию, нейросетям, компьютерной грамотности и дизайну для детей от 10 лет и взрослых.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Neuronia">
+        <span class="brand-mark">N</span>
+        <span class="brand-text">Neuronia</span>
+      </a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#about">О школе</a>
+        <a href="#courses">Курсы</a>
+        <a href="#locations">Локации</a>
+        <a href="#achievements">Достижения</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="btn btn-primary" href="https://t.me/proactivnie" target="_blank" rel="noopener">Записаться</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="circuit-top-left"><div class="trace" style="top:0;left:0;width:70px;height:2px;"></div><div class="trace" style="top:0;left:50px;width:2px;height:70px;"></div><div class="trace" style="top:70px;left:0;width:70px;height:2px;"></div></div>
+      <div class="circuit-top-right"><div class="trace" style="top:0;right:0;width:70px;height:2px;"></div><div class="trace" style="top:0;right:50px;width:2px;height:70px;"></div><div class="trace" style="top:70px;right:0;width:70px;height:2px;"></div></div>
+      <div class="circuit-bottom-left"><div class="trace" style="bottom:0;left:0;width:70px;height:2px;"></div><div class="trace" style="bottom:0;left:50px;width:2px;height:70px;"></div><div class="trace" style="bottom:70px;left:0;width:70px;height:2px;"></div></div>
+      <div class="circuit-bottom-right"><div class="trace" style="bottom:0;right:0;width:70px;height:2px;"></div><div class="trace" style="bottom:0;right:50px;width:2px;height:70px;"></div><div class="trace" style="bottom:70px;right:0;width:70px;height:2px;"></div></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="badge badge-cyan">Летний интенсив 2026</span>
+          <p class="eyebrow">IT школа Neuronia</p>
+          <h1>Осваивайте востребованные цифровые навыки</h1>
+          <p class="lead">Обучаем программированию, работе с нейросетями, компьютерной грамотности, дизайну и современным цифровым инструментам. Практика, реальные проекты и развитие в комфортной среде.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://t.me/proactivnie" target="_blank" rel="noopener">Записаться в Telegram</a>
+            <a class="btn btn-outline" href="#courses">Смотреть курсы</a>
+          </div>
+          <ul class="hero-highlights">
+            <li><span class="chip">для детей от 10 лет</span></li>
+            <li><span class="chip">и взрослых</span></li>
+            <li><span class="chip">поддержка МУК «Городской центр культуры и досуга»</span></li>
+          </ul>
+        </div>
+        <div class="hero-card card card-cyan">
+          <h2 class="neon-title">Ближайший набор</h2>
+          <ul class="check-list">
+            <li>Нейросети в учёбе и работе</li>
+            <li>Компьютерная грамотность</li>
+            <li>Современные цифровые инструменты</li>
+            <li>Дизайн, программирование с ИИ, информатика</li>
+          </ul>
+          <p class="small">Набор всегда доступен. Места ограничены.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-bg">
+      <div class="circuit-top-left"><div class="trace" style="top:0;left:0;width:60px;height:2px;"></div><div class="trace" style="top:0;left:40px;width:2px;height:60px;"></div><div class="trace" style="top:60px;left:0;width:60px;height:2px;"></div></div>
+      <div class="circuit-top-right"><div class="trace" style="top:0;right:0;width:60px;height:2px;"></div><div class="trace" style="top:0;right:40px;width:2px;height:60px;"></div><div class="trace" style="top:60px;right:0;width:60px;height:2px;"></div></div>
+      <div class="circuit-bottom-left"><div class="trace" style="bottom:0;left:0;width:60px;height:2px;"></div><div class="trace" style="bottom:0;left:40px;width:2px;height:60px;"></div><div class="trace" style="bottom:60px;left:0;width:60px;height:2px;"></div></div>
+      <div class="circuit-bottom-right"><div class="trace" style="bottom:0;right:0;width:60px;height:2px;"></div><div class="trace" style="bottom:0;right:40px;width:2px;height:60px;"></div><div class="trace" style="bottom:60px;right:0;width:60px;height:2px;"></div></div>
+      <div class="container split">
+        <div class="text-block">
+          <h2 class="neon-title">О школе</h2>
+          <p><strong>IT школа Neuronia</strong> — образовательное пространство в Озёрах и Кашире, где помогают войти в АйТи и получить навыки, необходимые уже сегодня. Школа создана при поддержке МУК «Городской центр культуры и досуга».</p>
+          <p>На занятиях ученики не только изучают инструменты, но и создают реальные продукты: от проектов с использованием ИИ до собственных идей и инициатив. Мы делаем упор на практику, понятную подачу и уверенный рост.</p>
+        </div>
+        <div class="card card-purple">
+          <h2 class="neon-title">Почему выбирают Neuronia</h2>
+          <ul class="feature-list">
+            <li>Направления для детей от 10 лет и взрослых</li>
+            <li>Нейросети, ИИ и современные цифровые инструменты</li>
+            <li>Практика и создание реальных проектов</li>
+            <li>Две локации: Озёры и Кашира</li>
+            <li>Доступная стоимость занятий</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="section">
+      <div class="circuit-top-left"><div class="trace" style="top:0;left:0;width:50px;height:2px;"></div><div class="trace" style="top:0;left:30px;width:2px;height:50px;"></div><div class="trace" style="top:50px;left:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-top-right"><div class="trace" style="top:0;right:0;width:50px;height:2px;"></div><div class="trace" style="top:0;right:30px;width:2px;height:50px;"></div><div class="trace" style="top:50px;right:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-bottom-left"><div class="trace" style="bottom:0;left:0;width:50px;height:2px;"></div><div class="trace" style="bottom:0;left:30px;width:2px;height:50px;"></div><div class="trace" style="bottom:50px;left:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-bottom-right"><div class="trace" style="bottom:0;right:0;width:50px;height:2px;"></div><div class="trace" style="bottom:0;right:30px;width:2px;height:50px;"></div><div class="trace" style="bottom:50px;right:0;width:50px;height:2px;"></div></div>
+      <div class="container">
+        <h2 class="neon-title section-title">Курсы и программы</h2>
+        <p class="section-subtitle">Направления обучения для детей и взрослых</p>
+        <div class="cards-grid">
+          <article class="card card-cyan">
+            <h3 class="card-title">IT-образование для детей 10–15 лет</h3>
+            <p>Основы цифрового мира, логика, работа с современными инструментами и первые шаги в программировании.</p>
+            <span class="badge badge-purple">от 10 лет</span>
+          </article>
+          <article class="card card-cyan">
+            <h3 class="card-title">Нейросети в учёбе и работе</h3>
+            <p>Практическое использование ИИ для обучения, творчества, поиска идей и решения повседневных задач.</p>
+            <span class="badge badge-purple">ИИ</span>
+          </article>
+          <article class="card card-cyan">
+            <h3 class="card-title">Компьютерная грамотность</h3>
+            <p>Уверенная работа с компьютером, файлами, сервисами и цифровой средой для детей и взрослых.</p>
+            <span class="badge badge-purple">базовый уровень</span>
+          </article>
+          <article class="card card-cyan">
+            <h3 class="card-title">Программирование и информатика</h3>
+            <p>Развитие алгоритмического мышления, знакомство с кодом и подготовка к дальнейшему обучению в IT.</p>
+            <span class="badge badge-purple">программирование</span>
+          </article>
+          <article class="card card-cyan">
+            <h3 class="card-title">Дизайн и современные инструменты</h3>
+            <p>Создание визуальных материалов, работа с цифровыми продуктами и развитие креативных навыков.</p>
+            <span class="badge badge-purple">дизайн</span>
+          </article>
+          <article class="card card-cyan">
+            <h3 class="card-title">Онлайн-курс по Python</h3>
+            <p>Отдельное направление для тех, кто хочет изучать программирование дистанционно в удобном формате.</p>
+            <span class="badge badge-purple">онлайн</span>
+          </article>
+        </div>
+        <p class="note">Актуальные группы, расписание и подробности по каждому направлению уточняйте при записи.</p>
+      </div>
+    </section>
+
+    <section id="locations" class="section section-bg">
+      <div class="circuit-top-left"><div class="trace" style="top:0;left:0;width:50px;height:2px;"></div><div class="trace" style="top:0;left:30px;width:2px;height:50px;"></div><div class="trace" style="top:50px;left:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-top-right"><div class="trace" style="top:0;right:0;width:50px;height:2px;"></div><div class="trace" style="top:0;right:30px;width:2px;height:50px;"></div><div class="trace" style="top:50px;right:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-bottom-left"><div class="trace" style="bottom:0;left:0;width:50px;height:2px;"></div><div class="trace" style="bottom:0;left:30px;width:2px;height:50px;"></div><div class="trace" style="bottom:50px;left:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-bottom-right"><div class="trace" style="bottom:0;right:0;width:50px;height:2px;"></div><div class="trace" style="bottom:0;right:30px;width:2px;height:50px;"></div><div class="trace" style="bottom:50px;right:0;width:50px;height:2px;"></div></div>
+      <div class="container">
+        <h2 class="neon-title section-title">Где и когда</h2>
+        <p class="section-subtitle">Локации и условия обучения</p>
+        <div class="cards-grid two">
+          <article class="card card-cyan location-card">
+            <h3 class="card-title">Озёры</h3>
+            <p><strong>Адрес:</strong> ДК «Текстильщик», ул. Ленина, д. 20</p>
+            <p><strong>Формат:</strong> очные занятия, летний интенсив</p>
+            <p><strong>Когда:</strong> набор всегда доступен</p>
+            <p><strong>Стоимость:</strong> 400 ₽ за академический час</p>
+            <a class="text-link" href="https://yandex.ru/maps/-/CPgKeC3f" target="_blank" rel="noopener">Открыть на карте</a>
+          </article>
+          <article class="card card-cyan location-card">
+            <h3 class="card-title">Кашира</h3>
+            <p><strong>Адрес:</strong> Кашира-1, ул. Советская, д. 9</p>
+            <p><strong>Формат:</strong> очные занятия, летний интенсив</p>
+            <p><strong>Когда:</strong> набор всегда доступен</p>
+            <p><strong>Стоимость:</strong> 600 ₽ за полный час</p>
+            <a class="text-link" href="https://yandex.ru/maps/-/CPRf7Z25" target="_blank" rel="noopener">Открыть на карте</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <div class="circuit-top-left"><div class="trace" style="top:0;left:0;width:50px;height:2px;"></div><div class="trace" style="top:0;left:30px;width:2px;height:50px;"></div><div class="trace" style="top:50px;left:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-top-right"><div class="trace" style="top:0;right:0;width:50px;height:2px;"></div><div class="trace" style="top:0;right:30px;width:2px;height:50px;"></div><div class="trace" style="top:50px;right:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-bottom-left"><div class="trace" style="bottom:0;left:0;width:50px;height:2px;"></div><div class="trace" style="bottom:0;left:30px;width:2px;height:50px;"></div><div class="trace" style="bottom:50px;left:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-bottom-right"><div class="trace" style="bottom:0;right:0;width:50px;height:2px;"></div><div class="trace" style="bottom:0;right:30px;width:2px;height:50px;"></div><div class="trace" style="bottom:50px;right:0;width:50px;height:2px;"></div></div>
+      <div class="container">
+        <h2 class="neon-title section-title">Достижения и жизнь школы</h2>
+        <p class="section-subtitle">Результаты наших учеников</p>
+        <div class="cards-grid">
+          <article class="card card-cyan">
+            <h3 class="card-title">Призёр олимпиады по программированию</h3>
+            <p>Ученик Neuronia стал призёром и вышел на всероссийский этап. В очном этапе участвовали более 330 школьников из нескольких регионов, а на заочный отбор было подано свыше 770 заявок.</p>
+          </article>
+          <article class="card card-cyan">
+            <h3 class="card-title">Реальные проекты</h3>
+            <p>На занятиях ребята создают реальные продукты — например, разработали собственный бренд одежды и Telegram-канал для него.</p>
+          </article>
+          <article class="card card-cyan">
+            <h3 class="card-title">Отзывы и доверие</h3>
+            <p>Школа получает тёплые отзывы от учеников и родителей и вносит вклад в развитие Озёр и Каширы, помогая детям и взрослым осваивать современные навыки.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="circuit-top-left"><div class="trace" style="top:0;left:0;width:50px;height:2px;"></div><div class="trace" style="top:0;left:30px;width:2px;height:50px;"></div><div class="trace" style="top:50px;left:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-top-right"><div class="trace" style="top:0;right:0;width:50px;height:2px;"></div><div class="trace" style="top:0;right:30px;width:2px;height:50px;"></div><div class="trace" style="top:50px;right:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-bottom-left"><div class="trace" style="bottom:0;left:0;width:50px;height:2px;"></div><div class="trace" style="bottom:0;left:30px;width:2px;height:50px;"></div><div class="trace" style="bottom:50px;left:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-bottom-right"><div class="trace" style="bottom:0;right:0;width:50px;height:2px;"></div><div class="trace" style="bottom:0;right:30px;width:2px;height:50px;"></div><div class="trace" style="bottom:50px;right:0;width:50px;height:2px;"></div></div>
+      <div class="container cta-band card card-purple">
+        <div>
+          <p class="eyebrow">Запись</p>
+          <h2 class="neon-title">Готовы начать обучение в Neuronia?</h2>
+          <p class="lead">Свяжитесь с нами, чтобы уточнить расписание, свободные места и подобрать подходящую программу.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="https://t.me/proactivnie" target="_blank" rel="noopener">Написать в Telegram</a>
+          <a class="btn btn-outline" href="https://vk.ru/neuroniaoz" target="_blank" rel="noopener">Группа ВКонтакте</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section section-bg">
+      <div class="circuit-top-left"><div class="trace" style="top:0;left:0;width:50px;height:2px;"></div><div class="trace" style="top:0;left:30px;width:2px;height:50px;"></div><div class="trace" style="top:50px;left:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-top-right"><div class="trace" style="top:0;right:0;width:50px;height:2px;"></div><div class="trace" style="top:0;right:30px;width:2px;height:50px;"></div><div class="trace" style="top:50px;right:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-bottom-left"><div class="trace" style="bottom:0;left:0;width:50px;height:2px;"></div><div class="trace" style="bottom:0;left:30px;width:2px;height:50px;"></div><div class="trace" style="bottom:50px;left:0;width:50px;height:2px;"></div></div>
+      <div class="circuit-bottom-right"><div class="trace" style="bottom:0;right:0;width:50px;height:2px;"></div><div class="trace" style="bottom:0;right:30px;width:2px;height:50px;"></div><div class="trace" style="bottom:50px;right:0;width:50px;height:2px;"></div></div>
+      <div class="container">
+        <h2 class="neon-title section-title">Контакты</h2>
+        <p class="section-subtitle">Связаться со школой Neuronia</p>
+        <div class="contact-grid">
+          <div class="card card-cyan">
+            <h3 class="card-title">Телефон</h3>
+            <p><a href="tel:+79267887248">+7-926-788-72-48</a></p>
+          </div>
+          <div class="card card-cyan">
+            <h3 class="card-title">Telegram / ВК / MAX</h3>
+            <p><a href="https://t.me/proactivnie" target="_blank" rel="noopener">@proactivnie</a></p>
+          </div>
+          <div class="card card-cyan">
+            <h3 class="card-title">Telegram-канал школы</h3>
+            <p><a href="https://t.me/ITschool_Ozery" target="_blank" rel="noopener">@ITschool_Ozery</a></p>
+          </div>
+          <div class="card card-cyan">
+            <h3 class="card-title">Сообщество ВКонтакте</h3>
+            <p><a href="https://vk.ru/neuroniaoz" target="_blank" rel="noopener">vk.ru/neuroniaoz</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 IT школа Neuronia. Озёры и Кашира.</p>
+      <p>Создана при поддержке МУК «Городской центр культуры и досуга».</p>
+    </div>
+  </footer>
+</body>
+</html>
